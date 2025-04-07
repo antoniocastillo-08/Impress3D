@@ -45,4 +45,8 @@ class User extends Authenticatable
             'password' => 'hashed',
         ];
     }
+
+    public function printers(){
+        return $this->belongsToMany('App\Models\Printers', 'print_user', 'user_id','printer_id');
+    }
 }

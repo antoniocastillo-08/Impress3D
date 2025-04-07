@@ -17,7 +17,12 @@ class PrintersFactory extends Factory
     public function definition(): array
     {
         return [
-            //
+            "name" => $this->faker->name(),
+            "model" => $this->faker->name(),
+            "type" => $this->faker->name(),
+            "marca" => $this->faker->name(),
+            "image" => $this->faker->imageUrl(640, 480),
+            "description" => $this->faker->paragraph(),
         ];
     }
 }

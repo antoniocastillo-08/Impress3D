@@ -11,14 +11,15 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('printers', function (Blueprint $table) {
+        Schema::create('print_user', function (Blueprint $table) {
             $table->id();
-            $table->string('name');
-            $table->string('model');
-            $table->string('type');
-            $table->string('marca');
-            $table->string('image')->nullable();
-            $table->string('description')->nullable();
+            $table->unsignedBigInteger('user_id');
+            $table->unsignedBigInteger('printer_id');
+
+            $table->foreign('user_id')->references('id')->on('users')->onDelete('cascade');
+            $table->foreign('printer_id')->references('id')->on('printers')->onDelete('cascade');
+
+
             $table->timestamps();
         });
     }
@@ -28,6 +29,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('printers');
+        Schema::dropIfExists('print_user');
     }
 };
