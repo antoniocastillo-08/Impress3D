@@ -11,7 +11,11 @@ Lista de Impresoras
 @else
     <ul>
         @foreach($printers_list as $printer)
-            <li>{{ $printer->name }}</li>
+            <li>
+                <h2>{{ $printer->name }}</h2>
+                <img src="{{ $printer->image }}" alt="{{ $printer->name }}" style="width: 200px; height: auto; border-radius: 10px;">
+                <p>{{ $printer->description }}</p>
+            </li>
         @endforeach
     </ul>
 @endif
