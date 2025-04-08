@@ -18,7 +18,7 @@ class PrintersSeeder extends Seeder
                 'model' => 'Ender 3',
                 'type' => 'FDM',
                 'marca' => 'Creality',
-                'image' => 'https://lacontradejaen.eldiario.es/img/galeria/2022/05/guide-to-personal-3d-printer-v3-2-02-640.jpg',
+                'image' => 'https://m.media-amazon.com/images/I/61L4aoIqYOL._AC_UF1000,1000_QL80_.jpg',
                 'description' => 'Impresora 3D de alta precisión para principiantes.',
             ],
             [
@@ -26,7 +26,7 @@ class PrintersSeeder extends Seeder
                 'model' => 'MK3S+',
                 'type' => 'FDM',
                 'marca' => 'Prusa',
-                'image' => 'https://example.com/images/prusa_mk3s.jpg',
+                'image' => 'https://m.media-amazon.com/images/I/61i3kl9rRtL.jpg',
                 'description' => 'Impresora 3D avanzada con características automáticas.',
             ],
             [
@@ -34,7 +34,7 @@ class PrintersSeeder extends Seeder
                 'model' => 'Photon Mono',
                 'type' => 'Resina',
                 'marca' => 'Anycubic',
-                'image' => 'https://example.com/images/photon_mono.jpg',
+                'image' => 'https://www.anycubic.es/cdn/shop/products/PhotonMono_1.jpg?v=1666174107',
                 'description' => 'Impresora 3D de resina para detalles finos.',
             ],
             [
@@ -42,7 +42,7 @@ class PrintersSeeder extends Seeder
                 'model' => 'CR-10',
                 'type' => 'FDM',
                 'marca' => 'Creality',
-                'image' => 'https://example.com/images/cr10.jpg',
+                'image' => 'https://servitec3d.com/wp-content/uploads/2020/09/creality-cr-10-v3-lateral-izquierdo-300x300.jpg',
                 'description' => 'Impresora 3D de gran volumen para proyectos grandes.',
             ],
             [
@@ -50,7 +50,7 @@ class PrintersSeeder extends Seeder
                 'model' => 'S5',
                 'type' => 'FDM',
                 'marca' => 'Ultimaker',
-                'image' => 'https://example.com/images/ultimaker_s5.jpg',
+                'image' => 'https://es.farnell.com/productimages/large/es_ES/2992573-40.jpg',
                 'description' => 'Impresora 3D profesional para prototipos industriales.',
             ],
         ];
