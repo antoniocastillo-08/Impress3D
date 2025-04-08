@@ -8,9 +8,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/hello', function () {
-    return view('hello');
-});
+
 Route::get('/printers' , [PrintersController::class, 'index'])-> name('printers.index');
 Route::get('/dashboard', function () {
     return view('dashboard');
