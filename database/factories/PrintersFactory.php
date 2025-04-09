@@ -21,7 +21,6 @@ class PrintersFactory extends Factory
             "model" => $this->faker->name(),
             "type" => $this->faker->name(),
             "marca" => $this->faker->name(),
-            "image" => $this->faker->imageUrl(640, 480),
             "description" => $this->faker->paragraph(),
         ];
     }

@@ -14,11 +14,53 @@ class PrintersSeeder extends Seeder
     {
         $printers = [
             [
-                'name' => 'Impresora 3D Ender 3',
-                'model' => 'Ender 3',
+                'name' => 'Ender 3',
+                'model' => 'Ender',
                 'type' => 'FDM',
                 'marca' => 'Creality',
-                'image' => 'https://m.media-amazon.com/images/I/61L4aoIqYOL._AC_UF1000,1000_QL80_.jpg',
+                'description' => 'Impresora 3D de alta precisión para principiantes.',
+            ],
+            [
+                'name' => 'Ender 3 V3 SE',
+                'model' => 'Ender',
+                'type' => 'FDM',
+                'marca' => 'Creality',
+                'description' => 'Impresora 3D de alta precisión para principiantes.',
+            ],
+            [
+                'name' => 'Ender 3 V3 KE',
+                'model' => 'Ender',
+                'type' => 'FDM',
+                'marca' => 'Creality',
+                'description' => 'Impresora 3D de alta precisión para principiantes.',
+            ],
+            [
+                'name' => 'Ender 3 V3',
+                'model' => 'Ender',
+                'type' => 'FDM',
+                'marca' => 'Creality',
+                'description' => 'Impresora 3D de alta precisión para principiantes.',
+            ],
+            [
+                'name' => 'Ender 3 V3 Plus',
+                'model' => 'Ender',
+                'type' => 'FDM',
+                'marca' => 'Creality',
+                'description' => 'Impresora 3D de alta precisión para principiantes.',
+            ],
+            [
+                'name' => 'Ender 3 V3 SE',
+                'model' => 'Ender',
+                'type' => 'FDM',
+                'marca' => 'Creality',
+                'description' => 'Impresora 3D de alta precisión para principiantes.',
+
+            ],
+            [
+                'name' => 'Ender 5 - Max',
+                'model' => 'Ender',
+                'type' => 'FDM',
+                'marca' => 'Creality',
                 'description' => 'Impresora 3D de alta precisión para principiantes.',
             ],
             [
@@ -26,7 +68,6 @@ class PrintersSeeder extends Seeder
                 'model' => 'MK3S+',
                 'type' => 'FDM',
                 'marca' => 'Prusa',
-                'image' => 'https://m.media-amazon.com/images/I/61i3kl9rRtL.jpg',
                 'description' => 'Impresora 3D avanzada con características automáticas.',
             ],
             [
@@ -34,7 +75,6 @@ class PrintersSeeder extends Seeder
                 'model' => 'Photon Mono',
                 'type' => 'Resina',
                 'marca' => 'Anycubic',
-                'image' => 'https://www.anycubic.es/cdn/shop/products/PhotonMono_1.jpg?v=1666174107',
                 'description' => 'Impresora 3D de resina para detalles finos.',
             ],
             [
@@ -42,7 +82,6 @@ class PrintersSeeder extends Seeder
                 'model' => 'CR-10',
                 'type' => 'FDM',
                 'marca' => 'Creality',
-                'image' => 'https://servitec3d.com/wp-content/uploads/2020/09/creality-cr-10-v3-lateral-izquierdo-300x300.jpg',
                 'description' => 'Impresora 3D de gran volumen para proyectos grandes.',
             ],
             [
@@ -50,7 +89,6 @@ class PrintersSeeder extends Seeder
                 'model' => 'S5',
                 'type' => 'FDM',
                 'marca' => 'Ultimaker',
-                'image' => 'https://es.farnell.com/productimages/large/es_ES/2992573-40.jpg',
                 'description' => 'Impresora 3D profesional para prototipos industriales.',
             ],
         ];
